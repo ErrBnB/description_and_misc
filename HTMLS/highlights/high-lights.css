@@ -1,0 +1,86 @@
+.home-highlight {
+    border: 1px solid #DBDBDB !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05) !important;
+    padding: 24px !important;
+}
+
+.highlight-title {
+  margin: 0px !important;
+  word-wrap: break-word !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: normal !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-weight: 800 !important;
+  color: #767676 !important;
+}
+
+.highlight-bold {
+    font-weight: 600 !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    display: inline !important;
+}
+
+.highlight-info {
+  margin: 0px !important;
+  word-wrap: break-word !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  letter-spacing: normal !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  display: inline !important;
+}
+
+.hepful-box {
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-weight: normal !important;
+    color: #767676 !important;
+}
+
+._aijsh5 {
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: left !important;
+    user-select: auto !important;
+    vertical-align: bottom !important;
+    font-weight: inherit !important;
+    display: inline-block !important;
+    color: #008489 !important;
+}
+
+._qtix31 {
+    display: table !important;
+    color: #008489 !important;
+}
+
+._ni9axhe {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+.like {
+  color: rgb(0, 132, 137) !important;
+  display: inline-block;
+}
+
+._36rlri {
+    display: inline-block !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+   
