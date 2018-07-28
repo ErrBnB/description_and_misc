@@ -1,4 +1,5 @@
 import Amenity from './components/Amenities.jsx';
+import Title from './components/Title.jsx';
 
 class App extends React.Component {
   render() {

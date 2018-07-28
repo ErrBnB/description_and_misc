@@ -9,6 +9,8 @@ class Title extends React.Component {
         <div id="summary">
             <div style={{marginTop: 24, marginBottom: 24}}>
                 <House_type />
+                <Main_title />
+                <Info_bar />
             </div>
          </div>
         )
@@ -38,6 +40,7 @@ class Main_title extends React.Component {
             <div className="_2h22gn">
                 <Title_Box />
                 <Owner_Box />
+
             </div>
           </div>
         )
@@ -191,3 +194,5 @@ class Info4 extends React.Component {
         )
     }
 }
+
+export default Title;
