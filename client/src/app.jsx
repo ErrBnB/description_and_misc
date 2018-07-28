@@ -5,7 +5,7 @@ class App extends React.Component {
     return (
       <div>
         <div> Render Success?</div>
-        <Amenity/>
+        <Title />
       </div>
     );
   }
