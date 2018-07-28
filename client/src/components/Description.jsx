@@ -25,7 +25,7 @@ class Description_text extends React.Component {
     render () {
         return (
             <div dir="ltr">
-                <p className="_6z3til"><span className="_fgdupie"><span>Romantic hideaway! This property has the lush beauty and privacy of Hana, without the drive! Only 15-20 minutes to the airport, 10 minutes to beaches, 2 minutes to restaurants and shops...on a private gated property with organic nursery. BEAUTIFUL!</span></span></p>
+                <p className="desc-text-wrap"><span className="_fgdupie"><span>Romantic hideaway! This property has the lush beauty and privacy of Hana, without the drive! Only 15-20 minutes to the airport, 10 minutes to beaches, 2 minutes to restaurants and shops...on a private gated property with organic nursery. BEAUTIFUL!</span></span></p>
             </div>
         )
     }
@@ -40,13 +40,12 @@ class Read_more extends React.Component {
         return (
         <div style={{marginTop: 16}}>
             <div>
-              <div className="_y9ev9r" />
               <div style={{marginTop: 8, marginBottom: 24}}>
-                <div className="_1n57hdr7">
-                  <button type="button" className="_n5wk6ic" aria-expanded="false" aria-busy="false">
-                    <div className="_qtix31">
-                      <div className="_ni9axhe"><span>Read more about the space</span></div>
-                      <div className="_ni9axhe">
+                <div className="read-more-font">
+                  <button type="button" className="desc-button" aria-expanded="false" aria-busy="false">
+                    <div className="display-table">
+                      <div className="read-more"><span>Read more about the space</span></div>
+                      <div className="read-more">
                         <div style={{marginLeft: 8}}>
                           <div className="_d5depq" style={{transform: 'rotate(0deg)'}}>
                             <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style={{height: 10, width: 10, display: 'block', fill: 'currentColor'}}>
@@ -73,7 +72,7 @@ class Contact_host extends React.Component {
     render () {
         return (
         <div>
-            <div style={{marginTop: 24}}><span><span className="_12i0h32r"><button type="button" className="_n5wk6ic" aria-busy="false"><span>Contact host</span></button></span></span></div>
+            <div style={{marginTop: 24}}><span><span><button type="button" className="desc-button" aria-busy="false"><span>Contact host</span></button></span></span></div>
         </div>
         )
     }

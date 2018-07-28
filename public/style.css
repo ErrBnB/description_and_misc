@@ -1,4 +1,4 @@
-@media all{
+/* @media all{
     a{
        background:transparent;
    }
@@ -461,4 +461,203 @@
     margin-left: 4px;
     margin-right: 4px;
 }
-   
+    
+.desc-text-wrap {
+    overflow-wrap: break-word !important;
+}
+
+.desc-text {
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    color: #484848 !important;
+    font-weight: normal !important;
+    display: inline !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.read-more-font {
+    font-weight: 600 !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+
+.desc-button {
+    color: #008489 !important;
+    font: inherit !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    text-decoration: none !important;
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    user-select: auto !important;
+    text-align: left !important;
+}
+
+.display-table {
+    display: table !important;
+}
+
+.read-more {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}  */
+
+
+
+._ni9axhe{
+   display:table-cell!important;
+   vertical-align:middle!important;
+}
+._2h22gn{
+   margin-left:-8px!important;
+   margin-right:-8px!important;
+}
+._2h22gn:before{
+   content:" "!important;
+   display:table!important;
+}
+._2h22gn:after{
+   content:" "!important;
+   display:table!important;
+   clear:both!important;
+}
+._1xu9tpch{
+   color:inherit!important;
+   font-size:1em!important;
+   font-weight:inherit!important;
+   line-height:inherit!important;
+   margin:0px!important;
+   padding:0px!important;
+   display:inline!important;
+}
+._ncwphzu{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+}
+._iq8x9is{
+   padding-left:8px!important;
+   padding-right:8px!important;
+   min-height:1px!important;
+   position:relative!important;
+   width:50%!important;
+   float:left!important;
+}
+._qtix31{
+   display:table!important;
+}
+._1n57hdr7{
+   font-weight:600!important;
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+}
+._n5wk6ic{
+   color:#008489!important;
+   font:inherit!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-decoration:none!important;
+   -webkit-appearance:none!important;
+   -moz-appearance:none!important;
+   appearance:none!important;
+   background:transparent!important;
+   border:0px!important;
+   cursor:pointer!important;
+   margin:0px!important;
+   padding:0px!important;
+   -webkit-user-select:auto!important;
+   -moz-user-select:auto!important;
+   -ms-user-select:auto!important;
+   user-select:auto!important;
+   text-align:left!important;
+}
+._n5wk6ic:hover{
+   text-decoration:underline!important;
+   color:#008489!important;
+}
+._n5wk6ic:focus{
+   text-decoration:underline!important;
+}
+._n5wk6ic:active{
+   color:#006C70!important;
+   outline:0px!important;
+}
+._76irmj{
+   border-bottom:1px solid #DBDBDB!important;
+}
+.amenity_title{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:800!important;
+}
+
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-a188841af78481a25b7bb2316a5f5716.woff") format("woff");
+   font-weight:800;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-4bc8dafd2e0fd8914bf4d5edce9acd24.woff") format("woff");
+   font-weight:600;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+   font-weight:normal;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:normal;
+}
+@font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:600;
+}
+
