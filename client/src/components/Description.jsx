@@ -11,7 +11,9 @@ class Description extends React.Component {
                 <Description_text />
                 <Read_more />
                 <Contact_host />
-                <div style={{marginTop: 24, marginBottom: 24}} />
+                <div style={{marginTop: 24, marginBottom: 24}}>
+                    <div class="desc-underbar"></div>
+                </div>
             </div>
         )
     }
@@ -47,7 +49,7 @@ class Read_more extends React.Component {
                       <div className="read-more"><span>Read more about the space</span></div>
                       <div className="read-more">
                         <div style={{marginLeft: 8}}>
-                          <div className="_d5depq" style={{transform: 'rotate(0deg)'}}>
+                          <div style={{transform: 'rotate(0deg)'}}>
                             <svg viewBox="0 0 18 18" role="presentation" aria-hidden="true" focusable="false" style={{height: 10, width: 10, display: 'block', fill: 'currentColor'}}>
                               <path d="m16.29 4.3a1 1 0 1 1 1.41 1.42l-8 8a1 1 0 0 1 -1.41 0l-8-8a1 1 0 1 1 1.41-1.42l7.29 7.29z" fillRule="evenodd" />
                             </svg>

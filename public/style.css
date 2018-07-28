@@ -1,4 +1,4 @@
-/* @media all{
+@media all{
     a{
        background:transparent;
    }
@@ -466,6 +466,10 @@
     overflow-wrap: break-word !important;
 }
 
+.desc-underbar{
+    border-bottom: 1px solid #DBDBDB !important;
+}
+
 .desc-text {
     margin: 0px !important;
     word-wrap: break-word !important;
@@ -516,28 +520,26 @@ p {
 .read-more {
     display: table-cell !important;
     vertical-align: middle !important;
-}  */
+}  
 
-
-
-._ni9axhe{
+.amenity-table-display{
    display:table-cell!important;
    vertical-align:middle!important;
 }
-._2h22gn{
+.amenity-box{
    margin-left:-8px!important;
    margin-right:-8px!important;
 }
-._2h22gn:before{
+.amenity-box:before{
    content:" "!important;
    display:table!important;
 }
-._2h22gn:after{
+.amenity-box:after{
    content:" "!important;
    display:table!important;
    clear:both!important;
 }
-._1xu9tpch{
+.amenity-title{
    color:inherit!important;
    font-size:1em!important;
    font-weight:inherit!important;
@@ -546,7 +548,7 @@ p {
    padding:0px!important;
    display:inline!important;
 }
-._ncwphzu{
+.amenity-text{
    margin:0px!important;
    word-wrap:break-word!important;
    font-size:16px!important;
@@ -559,7 +561,7 @@ p {
    padding-bottom:undefined!important;
    font-weight:normal!important;
 }
-._iq8x9is{
+.amenity-box-side{
    padding-left:8px!important;
    padding-right:8px!important;
    min-height:1px!important;
@@ -567,10 +569,10 @@ p {
    width:50%!important;
    float:left!important;
 }
-._qtix31{
+.amenity-table{
    display:table!important;
 }
-._1n57hdr7{
+.amenity-show-all{
    font-weight:600!important;
    margin:0px!important;
    word-wrap:break-word!important;
@@ -583,7 +585,7 @@ p {
    padding-top:undefined!important;
    padding-bottom:undefined!important;
 }
-._n5wk6ic{
+.amenity-show-button{
    color:#008489!important;
    font:inherit!important;
    font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
@@ -602,14 +604,14 @@ p {
    user-select:auto!important;
    text-align:left!important;
 }
-._n5wk6ic:hover{
+.desc-button:hover{
    text-decoration:underline!important;
    color:#008489!important;
 }
-._n5wk6ic:focus{
+.desc-button:focus{
    text-decoration:underline!important;
 }
-._n5wk6ic:active{
+.desc-button:active{
    color:#006C70!important;
    outline:0px!important;
 }
