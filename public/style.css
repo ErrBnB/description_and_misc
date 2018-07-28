@@ -438,12 +438,11 @@
     vertical-align: bottom !important;
     font-weight: inherit !important;
     display: inline-block !important;
-    color: #008489 !important;
+    
 }
 
 .emoji {
     display: table !important;
-    color: #008489 !important;
 }
 
 .helpful-button-text {
@@ -452,8 +451,8 @@
 }
 
 .like {
-  color: rgb(0, 132, 137) !important;
   display: inline-block;
+  color: grey;
 }
 
 .helpful-dot {
@@ -663,3 +662,11 @@ p {
    font-weight:600;
 }
 
+body {
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: rgb(72, 72, 72);
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}
