@@ -1,7 +1,12 @@
+import Amenity from './components/Amenities.jsx';
+
 class App extends React.Component {
   render() {
     return (
-      <div>Hello World!....I should show up!</div>
+      <div>
+        <div> Render Success?</div>
+        <Amenity/>
+      </div>
     );
   }
 }
