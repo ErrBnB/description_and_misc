@@ -1,5 +1,7 @@
 import Amenity from './components/Amenities.jsx';
 import Title from './components/Title.jsx';
+import Description from './components/Description.jsx';
+import Highlights from './components/Highlights.jsx';
 
 class App extends React.Component {
   render() {
@@ -7,6 +9,9 @@ class App extends React.Component {
       <div>
         <div> Render Success?</div>
         <Title />
+        <Highlights />
+        <Description />
+        <Amenity />
       </div>
     );
   }
