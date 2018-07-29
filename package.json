@@ -29,6 +29,8 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
     "mysql": "^2.16.0",
     "sinon": "^6.1.3"
   }
