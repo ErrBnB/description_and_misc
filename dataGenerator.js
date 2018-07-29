@@ -3,13 +3,13 @@ const fs = require('fs');
 const db = require('./db/db.js')
 
 
-var basicRecord = (id) => {
+var basicRecord = () => {
     var basicRecord = {};
-    basicRecord.id = id;
     basicRecord.title = faker.name.firstName() + "'s house";
     basicRecord.owner = faker.name.firstName();
     basicRecord.guests = faker.random.number({min: 1, max: 10});
     basicRecord.beds = faker.random.number({min: 1, max: 4});
+    basicRecord.bath = faker.random.number({min: 1, max: 4});
     basicRecord.description = faker.lorem.paragraph();
     return basicRecord;
 }
@@ -43,13 +43,14 @@ var descriptions = (house_id) => {
 
 var generateData = () => {
     var records = [];
-    for (var i = 0; i < 3; i++) {
+    for (var i = 1; i <= 101; i++) {
         var record = {"basic": basicRecord(i), "amenity": house_amenity(i), "descs": descriptions(i)};
         records.push(record);
     }
     fs.writeFile(__dirname + "/db/records.csv", JSON.stringify(records), (err) => {
         if (err) throw (err);
         console.log("GENERATE COMPLETE");
+        db.saveAll(records);
     })
 }
 

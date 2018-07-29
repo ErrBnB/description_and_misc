@@ -84,24 +84,3 @@ INSERT into amenities (name, category) VALUES ("Smoke detector", "Safety Feature
 INSERT into amenities (name, category) VALUES ("First aid kit", "Safety Features");
 
 -- INSERT into basics (title, owner, guests, beds, bath, description) VALUES ("The Great Monkey House", "Naruto", 2, 2, 1, "Romantic hideaway! This property has the lush beauty and privacy of Hana, without the drive! Only 15-20 minutes to the airport, 10 minutes to beaches, 2 minutes to restaurants and shops...on a private gated property with organic nursery. BEAUTIFUL!");
-
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 1, "Wifi is not free, sorry!");
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 2, "Dryer is broken");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 3);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 4);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 8);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 12);
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 13, "Not neccesary for children");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 14);
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 15, "Monkey will steal your stuff");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 16);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 17);
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 18, "Hair dryer is broken too");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 19);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 20);
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 21, "What is bed lines");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 22);
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 23);
-INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 25, "Use that for monkeys");
-INSERT into house_amenities (house_id, amenity_id) VALUES (1, 26);
-
