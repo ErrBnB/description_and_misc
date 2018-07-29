@@ -1,0 +1,672 @@
+@media all{
+    a{
+       background:transparent;
+   }
+    a:focus{
+       outline:thin dotted;
+   }
+    a:active,a:hover{
+       outline:0;
+   }
+    h1{
+       font-size:2em;
+       margin:0.67em 0;
+   }
+    img{
+       border:0;
+   }
+    svg:not(:root){
+       overflow:hidden;
+   }
+    @media print{
+        *{
+           color:#000!important;
+           background:transparent!important;
+           -webkit-box-shadow:none!important;
+           -moz-box-shadow:none!important;
+           box-shadow:none!important;
+           text-shadow:none!important;
+       }
+        a,a:visited{
+           text-decoration:underline;
+       }
+        img{
+           page-break-inside:avoid;
+       }
+        img{
+           max-width:100%!important;
+       }
+   }
+    *,*:before,*:after{
+       -moz-box-sizing:border-box;
+       -webkit-box-sizing:border-box;
+       box-sizing:border-box;
+   }
+    a:focus{
+       outline:thin dotted #333333;
+       outline:5px auto -webkit-focus-ring-color;
+   }
+    a{
+       color:#008489;
+       text-decoration:none;
+   }
+    a:hover,a:focus{
+       color:#008489;
+       text-decoration:underline;
+   }
+    img{
+       vertical-align:middle;
+   }
+    .text-center{
+       text-align:center;
+   }
+    h1{
+       line-height:1.1;
+       text-rendering:optimizelegibility;
+   }
+    h1{
+       margin-top:25px;
+       margin-bottom:15px;
+   }
+    h1:first-child{
+       margin-top:0;
+   }
+    h1{
+       font-size:44px;
+       font-weight:normal;
+   }
+    .text-muted{
+       color:#767676;
+   }
+    @media (max-width: 743px){
+        h1{
+           font-size:41px;
+       }
+   }
+    .hide{
+       display:none!important;
+   }
+    a{
+       font-weight:inherit;
+   }
+  }
+
+  @media all{
+    [tabindex="-1"]:focus{
+       outline:0;
+   }
+  }
+ 
+  .info{
+   display:inline-block!important;
+  }
+  .info-middle{
+   display:table!important;
+  }
+  .main-title{
+   margin-left:-8px!important;
+   margin-right:-8px!important;
+  }
+  .main-title:before{
+   content:" "!important;
+   display:table!important;
+  }
+  .main-title:after{
+   content:" "!important;
+   display:table!important;
+   clear:both!important;
+  }
+  ._1nhodd4u{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:14px!important;
+   line-height:18px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+  }
+  ._slzfb3n{
+   font:inherit!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-decoration:none!important;
+   text-align:left!important;
+   color:#767676!important;
+  }
+  ._slzfb3n:focus{
+   text-decoration:underline!important;
+  }
+  ._slzfb3n:active{
+   color:#006C70!important;
+  }
+  ._slzfb3n:hover{
+   text-decoration:underline!important;
+   color:#767676!important;
+  }
+  ._17oldnte{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:14px!important;
+   line-height:18px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+   display:inline!important;
+  }
+  .type-box{
+   text-transform:uppercase!important;
+  }
+  .type-text{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:12px!important;
+   line-height:16px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:800!important;
+   display:inline!important;
+  }
+  .title-box{
+   padding-left:8px!important;
+   padding-right:8px!important;
+   min-height:1px!important;
+   position:relative!important;
+   width: 80%;
+   float: left;
+  }
+  @media (min-width: 744px){
+    .title-box{
+       width:83.33333333333334%!important;
+       float:left!important;
+   }
+  }
+  .main-title-text{
+   font-weight:800!important;
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:32px!important;
+   line-height:36px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:6px!important;
+   padding-bottom:6px!important;
+  }
+  .main-title-bold{
+   color:inherit!important;
+   font-size:1em!important;
+   font-weight:inherit!important;
+   line-height:inherit!important;
+   margin:0px!important;
+   padding:0px!important;
+   display:inline!important;
+  }
+  .location{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+  }
+  .owner-box{
+   padding-left:8px!important;
+   padding-right:8px!important;
+   min-height:1px!important;
+   position:relative!important;
+   width: 20%;
+   float: left;
+  }
+  @media (min-width: 744px){
+    .owner-box{
+       width:16.666666666666664%!important;
+       float:left!important;
+   }
+  }
+  .owner-image{
+   background:#D8D8D8!important;
+   border-radius:50%!important;
+   border:2px solid #ffffff!important;
+   overflow:hidden!important;
+  }
+  .owner-image-box{
+   position:relative!important;
+   margin:0 auto!important;
+  }
+  ._110nrr2{
+   -webkit-appearance:none!important;
+   -moz-appearance:none!important;
+   appearance:none!important;
+   background:transparent!important;
+   border:0px!important;
+   cursor:pointer!important;
+   margin:0px!important;
+   padding:0px!important;
+   -webkit-user-select:auto!important;
+   -moz-user-select:auto!important;
+   -ms-user-select:auto!important;
+   user-select:auto!important;
+   text-decoration:none!important;
+  }
+  ._110nrr2:active{
+   outline:0px!important;
+  }
+  ._8kd6yy{
+   position:absolute!important;
+   right:-8px!important;
+   bottom:0px!important;
+   line-height:0!important;
+  }
+  .owner-name{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:14px!important;
+   line-height:18px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+   color:#767676!important;
+  }
+  @media print{
+    .owner-name{
+       color:#484848!important;
+   }
+  }
+  .info-text-box{
+   display:table-cell!important;
+   vertical-align:top!important;
+  }
+  .info-svg{
+   font-weight:600!important;
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   display:inline!important;
+  }
+  .airmoji{
+   font-family:Airmoji_Standalone!important;
+   font-weight:normal!important;
+  }
+  .info-text{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+   display:inline!important;
+  }
+ 
+  a:hover,a:focus{
+   text-decoration:none;
+  }
+
+  @font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-a188841af78481a25b7bb2316a5f5716.woff") format("woff");
+   font-weight:800;
+   font-style:normal;
+  }
+  @font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-4bc8dafd2e0fd8914bf4d5edce9acd24.woff") format("woff");
+   font-weight:600;
+   font-style:normal;
+  }
+  @font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+   font-weight:normal;
+   font-style:normal;
+  }
+  @font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:normal;
+  }
+  @font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:600;
+  }
+  @font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:800;
+  }
+  @font-face{
+   font-family:Airmoji_Standalone;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:normal;
+   font-style:normal;
+  }
+
+.home-highlight {
+    border: 1px solid #DBDBDB !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05) !important;
+    padding: 24px !important;
+}
+
+.highlight-title {
+  margin: 0px !important;
+  word-wrap: break-word !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  letter-spacing: normal !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  font-weight: 800 !important;
+  color: #767676 !important;
+}
+
+.highlight-bold {
+    font-weight: 600 !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    display: inline !important;
+}
+
+.highlight-info {
+  margin: 0px !important;
+  word-wrap: break-word !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  letter-spacing: normal !important;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+  display: inline !important;
+}
+
+.hepful-box {
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-weight: normal !important;
+    color: #767676 !important;
+}
+
+.highlight-button {
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: left !important;
+    user-select: auto !important;
+    vertical-align: bottom !important;
+    font-weight: inherit !important;
+    display: inline-block !important;
+    
+}
+
+.emoji {
+    display: table !important;
+}
+
+.helpful-button-text {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+.like {
+  display: inline-block;
+  color: grey;
+}
+
+.helpful-dot {
+    display: inline-block !important;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+    
+.desc-text-wrap {
+    overflow-wrap: break-word !important;
+}
+
+.desc-underbar{
+    border-bottom: 1px solid #DBDBDB !important;
+}
+
+.desc-text {
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    color: #484848 !important;
+    font-weight: normal !important;
+    display: inline !important;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.read-more-font {
+    font-weight: 600 !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    letter-spacing: normal !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+
+.desc-button {
+    color: #008489 !important;
+    font: inherit !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    text-decoration: none !important;
+    appearance: none !important;
+    background: transparent !important;
+    border: 0px !important;
+    cursor: pointer !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    user-select: auto !important;
+    text-align: left !important;
+}
+
+.display-table {
+    display: table !important;
+}
+
+.read-more {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}  
+
+.amenity-table-display{
+   display:table-cell!important;
+   vertical-align:middle!important;
+}
+.amenity-box{
+   margin-left:-8px!important;
+   margin-right:-8px!important;
+}
+.amenity-box:before{
+   content:" "!important;
+   display:table!important;
+}
+.amenity-box:after{
+   content:" "!important;
+   display:table!important;
+   clear:both!important;
+}
+.amenity-title{
+   color:inherit!important;
+   font-size:1em!important;
+   font-weight:inherit!important;
+   line-height:inherit!important;
+   margin:0px!important;
+   padding:0px!important;
+   display:inline!important;
+}
+.amenity-text{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:normal!important;
+}
+.amenity-box-side{
+   padding-left:8px!important;
+   padding-right:8px!important;
+   min-height:1px!important;
+   position:relative!important;
+   width:50%!important;
+   float:left!important;
+}
+.amenity-table{
+   display:table!important;
+}
+.amenity-show-all{
+   font-weight:600!important;
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+}
+.amenity-show-button{
+   color:#008489!important;
+   font:inherit!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-decoration:none!important;
+   -webkit-appearance:none!important;
+   -moz-appearance:none!important;
+   appearance:none!important;
+   background:transparent!important;
+   border:0px!important;
+   cursor:pointer!important;
+   margin:0px!important;
+   padding:0px!important;
+   -webkit-user-select:auto!important;
+   -moz-user-select:auto!important;
+   -ms-user-select:auto!important;
+   user-select:auto!important;
+   text-align:left!important;
+}
+.desc-button:hover{
+   text-decoration:underline!important;
+   color:#008489!important;
+}
+.desc-button:focus{
+   text-decoration:underline!important;
+}
+.desc-button:active{
+   color:#006C70!important;
+   outline:0px!important;
+}
+._76irmj{
+   border-bottom:1px solid #DBDBDB!important;
+}
+.amenity_title{
+   margin:0px!important;
+   word-wrap:break-word!important;
+   font-size:16px!important;
+   line-height:22px!important;
+   letter-spacing:normal!important;
+   font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif!important;
+   text-transform:undefined!important;
+   color:#484848!important;
+   padding-top:undefined!important;
+   padding-bottom:undefined!important;
+   font-weight:800!important;
+}
+
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Bold-a188841af78481a25b7bb2316a5f5716.woff") format("woff");
+   font-weight:800;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Medium-4bc8dafd2e0fd8914bf4d5edce9acd24.woff") format("woff");
+   font-weight:600;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Book-aa38e86e3f98554f9f7053d7b713b4db.woff") format("woff");
+   font-weight:normal;
+   font-style:normal;
+}
+@font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:normal;
+}
+@font-face{
+   font-family:Circular;
+   unicode-range:U+F0000-FFFFD;
+   src:url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-4a3b812aad192424809fdee14ad9f514.woff2") format("woff2"),url("https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/airmojix-Regular-91ac3e069668760ec26fc89b83d3f1bd.woff") format("woff");
+   font-weight:600;
+}
+
+body {
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: rgb(72, 72, 72);
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+}

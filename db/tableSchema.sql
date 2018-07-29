@@ -37,6 +37,14 @@ CREATE TABLE house_amenities (
 	owner_comment varchar(200)
 );
 
+CREATE TABLE descriptions (
+	house_id int NOT NULL,
+	space text,
+	guest_access text,
+	interactions text,
+	other text
+);
+
 INSERT into amenity_categories (name) VALUES ("Basic");
 INSERT into amenity_categories (name) VALUES ("Family features");
 INSERT into amenity_categories (name) VALUES ("Facilities");
@@ -75,7 +83,7 @@ INSERT into amenities (name, category) VALUES ("Fire extinguisher", "Safety Feat
 INSERT into amenities (name, category) VALUES ("Smoke detector", "Safety Features");
 INSERT into amenities (name, category) VALUES ("First aid kit", "Safety Features");
 
-INSERT into basics (title, owner, guests, beds, bath, description) VALUES ("The Great Monkey House", "Naruto", 2, 2, 1, "Romantic hideaway! This property has the lush beauty and privacy of Hana, without the drive! Only 15-20 minutes to the airport, 10 minutes to beaches, 2 minutes to restaurants and shops...on a private gated property with organic nursery. BEAUTIFUL!");
+-- INSERT into basics (title, owner, guests, beds, bath, description) VALUES ("The Great Monkey House", "Naruto", 2, 2, 1, "Romantic hideaway! This property has the lush beauty and privacy of Hana, without the drive! Only 15-20 minutes to the airport, 10 minutes to beaches, 2 minutes to restaurants and shops...on a private gated property with organic nursery. BEAUTIFUL!");
 
 INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 1, "Wifi is not free, sorry!");
 INSERT into house_amenities (house_id, amenity_id, owner_comment) VALUES (1, 2, "Dryer is broken");
