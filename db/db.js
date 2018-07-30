@@ -1,5 +1,4 @@
 const mysql = require('mysql');
-
 const options = {
     host: 'localhost',
     user: 'root',
@@ -37,4 +36,48 @@ var saveAll = (records) => {
 
 }
 
-module.exports.saveAll = saveAll;
+var getBasic = (recordNum, callback) => {
+    connection.query('SELECT * FROM basics WHERE id = ?', [recordNum], (err, results, fieled) => {
+        if (err) throw (err);
+        console.log('BASIC RECORD RECEIVED');
+        callback(null, results);
+    });
+}
+
+var getDescs = (recordNum, callback) => {
+    connection.query('SELECT * FROM descriptions WHERE house_id = ?', [recordNum], (err, results, fieled) => {
+        if (err) throw (err);
+        console.log('DESCRIPTIONS RECORDS RECEIVED');
+        callback(null, results);
+    });
+}
+
+var getAmenities = (recordNum, callback) => {
+    connection.query('SELECT * FROM house_amenities WHERE house_id = ?', [recordNum], (err, results, fieled) => {
+        if (err) throw (err);
+        console.log('AMENITIES RECORDS RECEIVED');
+        callback(null, results);
+    });
+}
+
+var getData = (recordNum, callback) => {
+    getBasic(recordNum, (err, basicData) => {
+        if (err) thorw (err);
+        getDescs(recordNum, (err, descData) => {
+            if (err) throw (err);
+            getAmenities(recordNum, (err, ameData) => {
+                if (err) throw (err);
+                var errbnbData = {};
+                errbnbData.basic = basicData;
+                errbnbData.descriptions = descData;
+                errbnbData.amenities = ameData;
+                callback(null, errbnbData);
+            })
+        })
+    })
+}
+
+module.exports = {
+    saveAll,
+    getData
+}

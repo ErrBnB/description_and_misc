@@ -25,6 +25,7 @@
     "webpack": "^3.11.0"
   },
   "devDependencies": {
+    "body-parser": "^1.18.3",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
