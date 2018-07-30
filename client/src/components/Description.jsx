@@ -12,7 +12,7 @@ class Description extends React.Component {
                 <Read_more />
                 <Contact_host />
                 <div style={{marginTop: 24, marginBottom: 24}}>
-                    <div class="desc-underbar"></div>
+                    <div className="desc-underbar"></div>
                 </div>
             </div>
         )
