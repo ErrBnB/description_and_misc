@@ -97,16 +97,18 @@ class Owner_Box extends React.Component {
 }
 
 class Info_bar extends React.Component {
-    constructor () {
-        super()
+    constructor (props) {
+        super(props);
+        console.log("@INFO-BAR", props);
     }
     render () {
+        var numOfBeds = this.props.data[0].beds;
         return (
             <div>
-                <Info info={"Guest?"} emoji={"󰄂"} />
-                <Info info={"Studio?"} emoji={"󰄄"} />
-                <Info info={"Bed?"} emoji={"󰄃"} />
-                <Info info={"Bath?"} emoji={"󰄁"} />
+                <Info info={this.props.data[0].guests + "guests"} emoji={"󰄂"} />
+                <Info info={numOfBeds === 0? "Studio" : numOfBeds + " bedroom"} emoji={"󰄄"} />
+                <Info info={this.props.data[0].beds + " bed"} emoji={"󰄃"} />
+                <Info info={this.props.data[0].bath + " bath"} emoji={"󰄁"} />
             </div>
         )
     }

@@ -60,6 +60,14 @@ var getAmenities = (recordNum, callback) => {
     });
 }
 
+var getAmenities2 = (recordNum, callback) => {
+    connection.query('SELECT amenities.category, amenities.name FROM amenities, house_amenities WHERE house_id = ? AND amenity_id = amenities.id', [recordNum], (err, results, fieled) => {
+        if (err) throw (err);
+        console.log('AMENITIES RECORDS RECEIVED');
+        callback(null, results);
+    });
+}
+
 var getData = (recordNum, callback) => {
     getBasic(recordNum, (err, basicData) => {
         if (err) thorw (err);
@@ -77,7 +85,22 @@ var getData = (recordNum, callback) => {
     })
 }
 
+var sortRecords = (records) => {
+    var result = {};
+    records.forEach((r) => {
+        if (result[r.category] === undefined) {
+            result[r.category] = [r.name];
+        } else {
+            if (!result[r.category].includes(r.name)) {
+                result[r.category].push(r.name)
+            }
+        }
+    })
+    return result;
+}
+
 module.exports = {
     saveAll,
-    getData
+    getData,
+    getAmenities2
 }

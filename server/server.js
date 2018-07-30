@@ -20,6 +20,14 @@ app.get('/db/basics', (req, res) => {
   })
 });
 
+app.get('/temp', (req, res) => {
+  db.getAmenities2(1, (err, results) => {
+    console.log(results);
+    res.statusCode = 200;
+    res.end(JSON.stringify(results));
+  })
+});
+
 
 app.listen(port, () => {
   console.log(`server running at: http://localhost:${port}`);
