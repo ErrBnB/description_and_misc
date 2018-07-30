@@ -38,43 +38,44 @@ var saveAll = (records) => {
 
 var getBasic = (recordNum, callback) => {
     connection.query('SELECT * FROM basics WHERE id = ?', [recordNum], (err, results, fieled) => {
-        if (err) throw (err);
-        console.log('BASIC RECORD RECEIVED');
+        if (err) callback(err);
+        console.log('basic record received');
         callback(null, results);
     });
 }
 
 var getDescs = (recordNum, callback) => {
     connection.query('SELECT * FROM descriptions WHERE house_id = ?', [recordNum], (err, results, fieled) => {
-        if (err) throw (err);
-        console.log('DESCRIPTIONS RECORDS RECEIVED');
+        if (err) callback(err);
+        console.log('descriptions records received');
         callback(null, results);
     });
 }
 
 var getAmenities = (recordNum, callback) => {
     connection.query('SELECT * FROM house_amenities WHERE house_id = ?', [recordNum], (err, results, fieled) => {
-        if (err) throw (err);
-        console.log('AMENITIES RECORDS RECEIVED');
+        if (err) callback(err);
+        console.log('amenities records received');
         callback(null, results);
     });
 }
 
+// refactored version waiting for test.....
 var getAmenities2 = (recordNum, callback) => {
     connection.query('SELECT amenities.category, amenities.name FROM amenities, house_amenities WHERE house_id = ? AND amenity_id = amenities.id', [recordNum], (err, results, fieled) => {
-        if (err) throw (err);
-        console.log('AMENITIES RECORDS RECEIVED');
-        callback(null, results);
+        if (err) callback(err);
+        console.log('amenity records received');
+        callback(null, sortRecords(results));
     });
 }
 
 var getData = (recordNum, callback) => {
     getBasic(recordNum, (err, basicData) => {
-        if (err) thorw (err);
+        if (err) callback(err);
         getDescs(recordNum, (err, descData) => {
-            if (err) throw (err);
+            if (err) callback(err);
             getAmenities(recordNum, (err, ameData) => {
-                if (err) throw (err);
+                if (err) callback(err);
                 var errbnbData = {};
                 errbnbData.basic = basicData;
                 errbnbData.descriptions = descData;
