@@ -2,20 +2,19 @@ import Amenity from './components/Amenities.jsx';
 import Title from './components/Title.jsx';
 import Description from './components/Description.jsx';
 import Highlights from './components/Highlights.jsx';
-import Amenity_detail from './components/Amenity_detail.jsx';
 
 class App extends React.Component {
   constructor () {
     super();
-    // this.getData.bind(this);
-    // this.getData((data) => {
-    //   this.setState({
-    //     basic: data.basic,
-    //     descriptions: data.descriptions,
-    //     amenities: data.amenities
-    //   });
-    //   console.log(this);
-    // });
+    this.getData.bind(this);
+    this.getData((data) => {
+      this.setState({
+        basic: data.basic,
+        descriptions: data.descriptions,
+        amenities: data.amenities
+      });
+      window.app = this;
+    });
   }
 
   getData (callback) {
@@ -31,7 +30,16 @@ class App extends React.Component {
     var gotData = this.state;
     return (
       <div>
-        <Amenity_detail />
+        {gotData ? (
+          <div> 
+            <Title data={this.state.basic}/>
+            <Highlights />
+            <Description />
+            <Amenity data={this.state.amenities}/>
+          </div>
+        ) : (
+          <div>Loading Page.....</div>
+        )}
       </div>
     );
   }

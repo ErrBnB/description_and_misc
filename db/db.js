@@ -62,7 +62,7 @@ var getAmenities = (recordNum, callback) => {
 
 // refactored version waiting for test.....
 var getAmenities2 = (recordNum, callback) => {
-    connection.query('SELECT amenities.category, amenities.name FROM amenities, house_amenities WHERE house_id = ? AND amenity_id = amenities.id', [recordNum], (err, results, fieled) => {
+    connection.query('SELECT amenities.category, amenities.name, house_amenities.owner_comment FROM amenities, house_amenities WHERE house_id = ? AND amenity_id = amenities.id', [recordNum], (err, results, fieled) => {
         if (err) callback(err);
         console.log('amenity records received');
         callback(null, sortRecords(results));
@@ -74,7 +74,7 @@ var getData = (recordNum, callback) => {
         if (err) callback(err);
         getDescs(recordNum, (err, descData) => {
             if (err) callback(err);
-            getAmenities(recordNum, (err, ameData) => {
+            getAmenities2(recordNum, (err, ameData) => {
                 if (err) callback(err);
                 var errbnbData = {};
                 errbnbData.basic = basicData;
@@ -88,12 +88,15 @@ var getData = (recordNum, callback) => {
 
 var sortRecords = (records) => {
     var result = {};
+    var helper = {};
     records.forEach((r) => {
         if (result[r.category] === undefined) {
-            result[r.category] = [r.name];
+            result[r.category] = [[r.name, r.owner_comment]];
+            helper[r.category] = [r.name];
         } else {
-            if (!result[r.category].includes(r.name)) {
-                result[r.category].push(r.name)
+            if (!helper[r.category].includes(r.name)) {
+                helper[r.category].push(r.name);
+                result[r.category].push([r.name, r.owner_comment]);
             }
         }
     })

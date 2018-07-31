@@ -2,6 +2,7 @@ import Amenity from './components/Amenities.jsx';
 import Title from './components/Title.jsx';
 import Description from './components/Description.jsx';
 import Highlights from './components/Highlights.jsx';
+import Amenity_detail from './components/Amenity_detail.jsx';
 
 class App extends React.Component {
   constructor () {

@@ -1,15 +1,17 @@
 import React from 'react';
+import Amenity_detail from './Amenity_detail.jsx';
 
 class Amenity extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    console.log(props.data);
   }
   render () {
     return (
       <section>
         <Amenity_title/>
         <Amenity_box />
-        <Amenity_show_all/>
+        <Amenity_show_all data={this.props.data} />
         <Amenity_end/>
       </section>
     )
@@ -190,10 +192,25 @@ class Amenity_R3 extends React.Component {
 }
 
 class Amenity_show_all extends React.Component {
+  constructor (props) {
+    super(props);
+    this.state = {clicked : false}
+    debugger;
+    window.ame = this;
+  }
+
+  handleClick (e) {
+    this.setState({
+      clicked : !this.state.clicked
+    });
+  }
+
   render () {
+    var clicked = this.state.clicked;
+    console.log(clicked);
     return (
       <div style={{marginTop: 8}}>
-        <div className="amenity-show-all"><button type="button" className="amenity-show-button" aria-busy="false"><span>Show all 28 amenities</span></button></div>
+        <div onClick={this.handleClick.bind(this)}  className="amenity-show-all"><button type="button" className="amenity-show-button" aria-busy="false"><span>Show all 28 amenities</span></button></div>
       </div>
     )
   }

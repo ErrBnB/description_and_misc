@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Description_detail extends React.Component {
+class Amenity_detail extends React.Component {
     constructor (props) {
         super(props);
     }
@@ -116,4 +116,4 @@ class Amebox_amenity extends React.Component {
     }
 }
 
-export default Description_detail;
+export default Amenity_detail;
